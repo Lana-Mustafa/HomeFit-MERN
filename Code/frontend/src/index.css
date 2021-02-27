@@ -1,0 +1,194 @@
+main {
+  min-height: 80vh;
+}
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.rating span {
+  margin: 0.08rem;
+}
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 90vh;
+  /* padding: 40px;
+  margin: 40px; */
+  /* border-radius: 50%; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.carousel a {
+  /* margin: 0 auto; */
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+  }
+}
+
+.captionh3 {
+  margin: 25% auto;
+}
+
+.captiona {
+  text-decoration: none;
+}
+
+.captiona:hover {
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.togglechec {
+  margin: 5px 5px;
+  padding: 0;
+  width: 0;
+}
+
+.navbare {
+  background: #0a62d0;
+  font-size: 18px;
+}
+
+.searchbtn {
+  background: #f3d849;
+}
+
+.searchbtn:hover {
+  background: #e0e5e9;
+  color: #000;
+}
+
+.blacksearch {
+  color: #000;
+}
+
+/* .singin {
+  color: #f3d849;
+} */
+
+.singinuser {
+  background: #f3d849 !important;
+  color: #000 !important;
+}
+
+.alink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.alink:hover {
+  color: rgb(131, 131, 131);
+  text-decoration: none;
+}
+
+.link {
+  color: #fff;
+}
+
+.imglink {
+  border-radius: 10%;
+  /* border: #f3d849 solid; */
+}
+
+.h1center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+::placeholder {
+  color: #fff !important;
+  opacity: 1; /* Firefox */
+}
+
+.logonav {
+  width: 70px;
+  height: 50px;
+}
+/*000000000000000000000000000000000000000000000000000000000*/
+div.jumbotron {
+  margin: 0px;
+  padding: 50px;
+}
+@media (max-width: 640px) {
+  div.jumbotron {
+    margin: 0px;
+  }
+  div.col {
+    display: block;
+  }
+  #footer-h5 {
+    font-size: 1rem;
+    font-family: "Parisienne";
+  }
+  #footer-p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 410px) {
+  /* div.col{
+       font-size: 0.5rem;
+  } */
+  #footer-h5 {
+    font-size: 0.7rem;
+  }
+  #footer-p {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 320px) {
+  div.col {
+    font-size: 0.3rem;
+  }
+  #footer-h5 {
+    font-size: 0.6rem;
+  }
+  #footer-p {
+    font-size: 0.4rem;
+  }
+  #sign {
+    margin: 1rem;
+    margin-top: -2px;
+  }
+  #footer-img {
+    width: 30%;
+  }
+}
